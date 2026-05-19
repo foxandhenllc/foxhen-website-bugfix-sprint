@@ -6,7 +6,7 @@ A static web bugfix sprint board using fictional defects, fix notes, and accepta
 
 - Fox & Hen offer: 24-hour website bug fix or polish pass
 - Upwork catalog proof point: Focused web repair sprint
-- Live demo: Pending Vercel deployment at `https://foxhen-website-bugfix-sprint.vercel.app`
+- Live demo: https://foxhen-website-bugfix-sprint.vercel.app
 - Repository: https://github.com/foxandhenllc/foxhen-website-bugfix-sprint
 
 ## Screenshot
