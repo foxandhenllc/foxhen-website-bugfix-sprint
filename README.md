@@ -1,23 +1,26 @@
-# Website Bugfix Sprint
+# Website Bugfix Sprint Board
 
-A static web bugfix sprint board using fictional defects, fix notes, and acceptance checks.
+A portfolio-grade React + TypeScript mini product for a fictional 24-hour website bugfix and polish sprint. The app turns a small service offer into an interactive sprint board with local sample data only.
+
+## Demo Narrative
+
+This public sample shows how a focused website repair pass can be packaged for a buyer: reproduce defects, rank severity, inspect affected viewports, record fix notes, run acceptance checks, and produce a clean handoff package. Every bug, metric, note, and check is fictional.
+
+## Key Interactions To Test
+
+- Filter the defect list by blocker, high, medium, or low severity.
+- Select different bugs to view repro steps, root cause notes, before/after metrics, and the fix timeline.
+- Toggle the responsive preview between mobile, tablet, and desktop widths.
+- Run the acceptance-check runner or manually tick individual QA checks.
+- Review the simulated handoff package for fix log, responsive QA sheet, and memo contents.
 
 ## Service Mapping
 
-- Fox & Hen offer: 24-hour website bug fix or polish pass
-- Upwork catalog proof point: Focused web repair sprint
+- Offer: 24-hour website bugfix and polish pass.
+- Product shape: static sprint command center with fictional defects and QA workflow.
+- Proof points: local state, typed sample data, responsive layout, premium first viewport, and clear handoff framing.
 - Live demo: https://foxhen-website-bugfix-sprint.vercel.app
 - Repository: https://github.com/foxandhenllc/foxhen-website-bugfix-sprint
-
-## Screenshot
-
-![Website Bugfix Sprint demo screenshot](docs/demo-screenshot.png)
-
-## What This Demonstrates
-
-- A polished React/Vite/TypeScript interface for a small fixed-scope service.
-- A clear intake-to-handoff workflow using fictional sample data.
-- Public-safe portfolio proof for Fox & Hen, LLC without real customer data, credentials, or production access.
 
 ## Local Run
 
@@ -34,4 +37,4 @@ npm run build
 
 ## Scope Note
 
-This repository is a public sample app. It uses local static data only and does not require environment variables, accounts, payments, databases, or third-party services.
+This repository is a public sample app. It uses React, TypeScript, Vite, Tailwind, and local static data only. It does not require environment variables, accounts, payments, databases, or third-party services.
