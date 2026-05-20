@@ -130,6 +130,7 @@ export function DemoShell({ demo }: DemoShellProps) {
   const currentDevice = demo.devices.find((device) => device.id === selectedDevice) ?? demo.devices[0];
   const selectedChecks = selectedBug.qaChecks;
   const passedChecks = selectedChecks.filter((check) => checkedQa[check.id]).length;
+  const qaPercent = Math.round((passedChecks / Math.max(selectedChecks.length, 1)) * 100);
 
   function selectSeverity(nextSeverity: Severity | 'all') {
     setSeverity(nextSeverity);
@@ -277,6 +278,9 @@ export function DemoShell({ demo }: DemoShellProps) {
                 <div className="rounded-3xl bg-slate-950 p-4 text-white">
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">QA runner</p>
                   <p className="mt-2 text-3xl font-black">{passedChecks}/{selectedChecks.length}</p>
+                  <div className="mt-3 h-2 rounded-full bg-white/10">
+                    <div className="h-2 rounded-full bg-emerald-300 transition-all duration-500" style={{ width: `${qaPercent}%` }} />
+                  </div>
                   <button className="mt-3 rounded-full bg-emerald-300 px-4 py-2 text-xs font-black text-emerald-950" onClick={runAcceptanceChecks} type="button">
                     Run checks
                   </button>
@@ -286,6 +290,9 @@ export function DemoShell({ demo }: DemoShellProps) {
               <div className="mt-6 grid gap-4 xl:grid-cols-[1fr_0.95fr]">
                 <div className="rounded-[1.5rem] bg-slate-50 p-5">
                   <h4 className="text-sm font-black uppercase tracking-[0.18em] text-slate-500">Repro steps</h4>
+                  <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-950">
+                    <span className="font-black">Root cause note:</span> {selectedBug.rootCause}
+                  </div>
                   <div className="mt-4 space-y-4">
                     {selectedBug.reproSteps.map((step, index) => (
                       <div key={step.step} className="rounded-2xl border border-slate-950/10 bg-white p-4">

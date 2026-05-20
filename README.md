@@ -22,6 +22,13 @@ This public sample shows how a focused website repair pass can be packaged for a
 - Live demo: https://foxhen-website-bugfix-sprint.vercel.app
 - Repository: https://github.com/foxandhenllc/foxhen-website-bugfix-sprint
 
+| Service moment | Demo artifact | Buyer takeaway |
+| --- | --- | --- |
+| Reproduce | Defect filters, repro steps, root-cause notes, and responsive preview | Shows the sprint starts with evidence, not vague polish requests. |
+| Patch | Fix timeline, before/after metrics, and severity labels | Demonstrates how small fixes are prioritized and explained. |
+| QA | Device selector, acceptance runner, manual checks, and progress meter | Makes verification visible before handoff. |
+| Handoff | Fix log, responsive QA sheet, and memo cards | Packages the result in a buyer-friendly format. |
+
 ## Local Run
 
 ```bash
@@ -38,3 +45,10 @@ npm run build
 ## Scope Note
 
 This repository is a public sample app. It uses React, TypeScript, Vite, Tailwind, and local static data only. It does not require environment variables, accounts, payments, databases, or third-party services.
+
+## Forking Notes
+
+- Start with `src/data/sample.ts`; replace the fictional defects, metrics, repro steps, and handoff assets.
+- Keep all screenshots, IDs, client names, analytics, tickets, and proprietary implementation notes out of public forks.
+- Update `repo`, `liveUrl`, service framing, and screenshot assets before publishing a derived template.
+- Do not add external monitors, issue trackers, form submissions, analytics, auth, or secrets to this public sample.
