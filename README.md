@@ -51,4 +51,4 @@ This repository is a public sample app. It uses React, TypeScript, Vite, Tailwin
 - Start with `src/data/sample.ts`; replace the fictional defects, metrics, repro steps, and handoff assets.
 - Keep all screenshots, IDs, client names, analytics, tickets, and proprietary implementation notes out of public forks.
 - Update `repo`, `liveUrl`, service framing, and screenshot assets before publishing a derived template.
-- Do not add external monitors, issue trackers, form submissions, analytics, auth, or secrets to this public sample.
+- Do not add external monitors, issue trackers, form submissions, analytics, auth, or credentials to this public sample.
