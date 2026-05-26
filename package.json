@@ -2,7 +2,7 @@
   "name": "foxhen-website-bugfix-sprint",
   "version": "1.0.0",
   "type": "module",
-  "description": "Website Bugfix Sprint public sample app for Fox & Hen, LLC",
+  "description": "24-hour website bugfix sprint board with reproduction steps, responsive checks, fix logs, and acceptance criteria.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
@@ -21,5 +21,16 @@
   "devDependencies": {
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3"
-  }
+  },
+  "homepage": "https://foxhen-website-bugfix-sprint.vercel.app",
+  "keywords": [
+    "bugfix",
+    "website-qa",
+    "responsive-design",
+    "react",
+    "typescript",
+    "vite",
+    "client-workflow",
+    "fox-and-hen"
+  ]
 }

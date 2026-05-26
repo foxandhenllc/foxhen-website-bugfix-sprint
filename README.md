@@ -1,5 +1,9 @@
 # Website Bugfix Sprint Board
 
+## Purpose
+
+24-hour website bugfix sprint board with reproduction steps, responsive checks, fix logs, and acceptance criteria.
+
 A portfolio-grade React + TypeScript mini product for a fictional 24-hour website bugfix and polish sprint. The app turns a small service offer into an interactive sprint board with local sample data only.
 
 ## Demo Narrative
