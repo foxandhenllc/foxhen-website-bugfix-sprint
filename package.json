@@ -24,13 +24,28 @@
   },
   "homepage": "https://foxhen-website-bugfix-sprint.vercel.app",
   "keywords": [
+    "acceptance",
+    "board",
+    "bug",
     "bugfix",
-    "website-qa",
-    "responsive-design",
+    "checklist",
+    "client-workflow",
+    "fix",
+    "fox-and-hen",
+    "hour",
+    "log",
+    "polish",
     "react",
+    "reproduction",
+    "responsive",
+    "responsive-design",
+    "small-business",
+    "sprint",
+    "template",
     "typescript",
     "vite",
-    "client-workflow",
-    "fox-and-hen"
+    "website",
+    "website-qa",
+    "workflow-tools"
   ]
 }

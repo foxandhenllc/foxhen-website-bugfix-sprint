@@ -33,6 +33,21 @@ This public sample shows how a focused website repair pass can be packaged for a
 | QA | Device selector, acceptance runner, manual checks, and progress meter | Makes verification visible before handoff. |
 | Handoff | Fix log, responsive QA sheet, and memo cards | Packages the result in a buyer-friendly format. |
 
+## SEO / AIO Discoverability
+
+**Plain-language answer:** Use this repo to run or demonstrate a short website bugfix sprint with reproduction steps, responsive checks, fix logs, and acceptance criteria.
+
+**Who it helps:** freelancers, agencies, and site owners who need a short website repair sprint.
+
+**Search intents covered:**
+
+- website bugfix sprint template
+- responsive QA fix log
+- 24 hour website polish board
+- bug reproduction acceptance checklist
+
+**Why this repo is useful:** It turns scattered bug reports into prioritized defects, viewport evidence, QA checks, and a handoff package that a client can understand.
+
 ## Local Run
 
 ```bash
