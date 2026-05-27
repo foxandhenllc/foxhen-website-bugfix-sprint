@@ -23,7 +23,7 @@ This public sample shows how a focused website repair pass can be packaged for a
 - Offer: 24-hour website bugfix and polish pass.
 - Product shape: static sprint command center with fictional defects and QA workflow.
 - Proof points: local state, typed sample data, responsive layout, premium first viewport, and clear handoff framing.
-- Live demo: https://foxhen-website-bugfix-sprint.vercel.app
+- Live demo: https://freetoolsforpeople.com/website-bugfix-sprint
 - Repository: https://github.com/foxandhenllc/foxhen-website-bugfix-sprint
 
 | Service moment | Demo artifact | Buyer takeaway |

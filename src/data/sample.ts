@@ -75,7 +75,7 @@ export type DemoData = {
 
 export const demo: DemoData = {
   repo: 'https://github.com/foxandhenllc/foxhen-website-bugfix-sprint',
-  liveUrl: 'https://foxhen-website-bugfix-sprint.vercel.app',
+  liveUrl: 'https://freetoolsforpeople.com/website-bugfix-sprint',
   sprint: {
     title: '24-hour website bugfix sprint board',
     subtitle:
