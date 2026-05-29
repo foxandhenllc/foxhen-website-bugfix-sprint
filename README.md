@@ -1,5 +1,7 @@
 # Website Bugfix Sprint Board
 
+[![Build](https://github.com/foxandhenllc/foxhen-website-bugfix-sprint/actions/workflows/build.yml/badge.svg)](https://github.com/foxandhenllc/foxhen-website-bugfix-sprint/actions/workflows/build.yml)
+
 ## Purpose
 
 24-hour website bugfix sprint board with reproduction steps, responsive checks, fix logs, and acceptance criteria.
@@ -48,6 +50,13 @@ This public sample shows how a focused website repair pass can be packaged for a
 
 **Why this repo is useful:** It turns scattered bug reports into prioritized defects, viewport evidence, QA checks, and a handoff package that a client can understand.
 
+## Open Source Readiness
+
+- MIT licensed for reuse, remixing, and client-safe adaptation.
+- GitHub Actions build workflow runs install, typecheck, tests when present, and production build.
+- Contribution guide, roadmap, and issue templates are included for public collaboration.
+- Public-safe data policy keeps examples fictional and reviewable.
+
 ## Local Run
 
 ```bash
@@ -71,3 +80,19 @@ This repository is a public sample app. It uses React, TypeScript, Vite, Tailwin
 - Keep all screenshots, IDs, client names, analytics, tickets, and proprietary implementation notes out of public forks.
 - Update `repo`, `liveUrl`, service framing, and screenshot assets before publishing a derived template.
 - Do not add external monitors, issue trackers, form submissions, analytics, auth, or credentials to this public sample.
+
+## Validation
+
+```bash
+npm run typecheck --if-present
+npm run test --if-present
+npm run build --if-present
+```
+
+## Contributing
+
+See `CONTRIBUTING.md` for public-safe contribution rules, local validation commands, and good first contribution ideas. Roadmap items live in `ROADMAP.md`.
+
+## License
+
+MIT - see `LICENSE`.
